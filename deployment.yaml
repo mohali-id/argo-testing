@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: ct-nginx
-        image: nginx
+        image: ubuntu/apache2
         ports:
         - containerPort: 80
 
